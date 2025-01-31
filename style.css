@@ -1,0 +1,67 @@
+body{
+    background-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#password-generator{
+   background-color: whitesmoke;
+   border: 5px solid lightgray; 
+   width: 500px;
+   height: 250px;
+   padding: 10px;
+   border-radius: 25px;
+   text-align: center;
+}
+
+#password{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#result{
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+
+}
+#copy-button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+#password-length{
+    width: 90%;
+}
+#options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+#option label{
+    padding: 10px;
+    display: block;
+    background-color: lightgrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#generate-button{
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 175px;
+    font-size: 1em;
+    cursor: pointer;
+    height: 50px;
+
+}
